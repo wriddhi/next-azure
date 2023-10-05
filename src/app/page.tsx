@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
@@ -18,7 +17,7 @@ export default function Home() {
   return (
     <main className="min-h-screen w-full grid place-items-center">
       {loading ? (
-        <div>Loading....</div>
+        <div>Loading...</div>
       ) : (
         <>
           <input
